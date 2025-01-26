@@ -9,7 +9,8 @@
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="hero">
+      <img src="sfondo.jpeg" alt="DogePizza Header" class="hero-image">
       <h1>DogePizza 🍕</h1>
       <p>The hottest meme token that’s ready to deliver fun and gains!</p>
     </div>
@@ -43,6 +44,5 @@
       </div>
     </div>
   </footer>
-
 </body>
 </html>
