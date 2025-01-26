@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(90deg, #ffaf1a, #ff5757);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  color: #fff;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Header Styles */
+header {
+  padding: 2rem;
+  background: #ff5733;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+.section {
+  padding: 4rem 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.section.animated:hover {
+  transform: scale(1.05);
+}
+
+#why-keep-pizza {
+  background: #ff914d;
+}
+
+#roadmap {
+  background: #ff6f61;
+}
+
+#tokenomics {
+  background: #ff4d4d;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #ff3b3b;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social {
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.social:hover {
+  color: #ffdd57;
+}
